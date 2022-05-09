@@ -1,0 +1,142 @@
+h1.title {
+    margin: 0%;
+    font-family: 'Lato', sans-serif;
+    font-size: 38px;
+    font-weight: 900;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h2.subtitle {
+    color: #999;
+    margin-bottom: 1em;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.5em;
+    padding: 1em;
+    /*the distance between rows to be 1em*/
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.menu {
+    width: 990px;
+    margin: 80px auto 0 auto;
+    text-align: center;
+}
+
+.menu--light {
+    margin: 30px auto 0 auto;
+}
+
+.menu-item {
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: 20px;
+    padding: 10px 40px 10px 40px;
+    background: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 14px;
+    outline: none;
+    color: #888;
+    vertical-align: bottom;
+}
+
+.menu-item-active {
+    position: relative;
+    bottom: -1px;
+    color: #c0392b;
+    padding: 15px 40px 15px 40px;
+    margin-top: 0;
+}
+
+main.resume-container {
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 20px;
+    padding: 10px 40px 10px 40px;
+    background: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    color: #999;
+    vertical-align: baseline;
+}
+
+aside.resume-aside {
+    position: relative;
+    bottom: -1px;
+    color: #c0392b;
+    padding: 15px 40px 15px 40px;
+    margin-top: 0;
+}
+
+hr {
+    margin-top: 25px;
+    border: 1px solid #f1f1f1;
+}
+
+h2.resume-title {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    margin-top: 60px;
+}
+
+h3.resume-subtitle {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 21px;
+    font-weight: 700;
+    margin-top: 25px;
+    display: inline;
+}
+
+div.resume-date {
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    width: 75px;
+    height: 20px;
+    border: 1px solid #5BC0DE;
+    border-radius: 10%;
+    background-color: #5BC0DE;
+    display: inline;
+    float: right;
+}
+
+/*div time:nth-child(3) {
+    background-color: black;
+}*/
+
+p {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+h2.resume-title {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    margin-top: 60px;
+    margin-bottom: 25px;
+}
+
+h3.resume-subtitle {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 21px;
+    font-weight: 700;
+}
+
+
+li.skills-item {
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
