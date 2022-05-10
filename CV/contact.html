@@ -9,9 +9,22 @@
     <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
     <link rel="stylesheet" href="styles/style3.css">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.css">
     <title>Portfolio</title>
 </head>
+<style>
+    .fa.fa-globe{
+        font-size: 100px;
+    }
 
+    .fa.fa-phone{
+        font-size: 100px;
+    }
+
+    #asd{
+        font-size: 100px;
+    }
+</style>
 <body>
     <header class="header">
         <h1 class="title">SUNNY LUTHRA</h1>
@@ -24,14 +37,23 @@
         <a class="menu-item menu-item-active" href="contact.html"><i class="fa fa-envelope"></i> Contact</a>
     </nav>
     <div class="page-grid">
-        <!-- <main class="container portfolio-container">
-            <img class="photo" src="https://picsum.photos/seed/a/400/400" alt="">
-            <img class="photo" src="https://picsum.photos/seed/b/400/400" alt="">
-            <img class="photo" src="https://picsum.photos/seed/c/400/400" alt="">
-            <img class="photo" src="https://picsum.photos/seed/d/400/400" alt="">
-            <img class="photo" src="https://picsum.photos/seed/e/400/400" alt="">
-            <img class="photo" src="https://picsum.photos/seed/f/400/400" alt="">
-        </main> -->
+        <main class="container contact-container">
+            <div class="contact-address">
+                <i class="fa fa-globe" aria-hidden="true"></i>
+                <h1>My Address</h1>
+                <p>Some Apartment 405 in a jungle nearby a restaurant</p>
+            </div>
+            <div class="contact-phone">
+                <i class="fa fa-phone" aria-hidden="true"></i>
+                <h1>Mobile number</h1>
+                <p>999-999-999</p>
+            </div>
+            <div class="contact-about">
+                <i id="asd" class="fa fa-user" aria-hidden="true"></i>
+                <h1>About me</h1>
+                <p>I love to work, so dont be shy. i am just an email away.</p>
+            </div>
+        </main>
         <footer class="footer">
             <p class="copyright">Designed with lots of love at mRova. </p>
         </footer>

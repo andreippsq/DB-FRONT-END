@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="styles/position-style.css">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        background-image: url('poze/background.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: bottom;
+        background-size: 100% 50%;
+    }
+
+    .notification {
+        position: fixed;
+        top: 44%;
+        left: 50%;
+    }
+
+    .fa{
+        font-size: 100px;
+        border-style: 3px black;
+    }
+
+    .circleBase {
+        border-radius: 50%;
+        position: fixed;
+        top: 44%;
+        left: 49.5%;
+    }
+
+    .circle {
+        width: 110px;
+        height: 110px;
+        background: rgba(0, 0, 0, 0);
+        border: 3px solid #000;
+    }
+</style>
+<body>
+    <div class="notification">
+        <i class="fa fa-bell-o" aria-hidden="true"></i>
+    </div>
+    <div class="circleBase circle"></div>
+</body>
+</html>

@@ -163,3 +163,29 @@ hr {
     height: 290px;
     width: 290px;
 }
+
+.contact-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.contact-container h1 {
+    margin-bottom: 10px;
+}
+
+.contact-address {
+    text-align: center;
+    width: 350px;
+}
+
+.contact-phone {
+    text-align: center;
+    width: 350px;
+}
+
+.contact-about {
+    text-align: center;
+    width: 350px;
+}
+

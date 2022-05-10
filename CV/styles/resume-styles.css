@@ -13,7 +13,6 @@ h2.subtitle {
     font-family: 'Lato', sans-serif;
     font-size: 1.5em;
     padding: 1em;
-    /*the distance between rows to be 1em*/
     text-transform: uppercase;
     text-align: center;
 }
@@ -69,9 +68,10 @@ main.resume-container {
 aside.resume-aside {
     position: relative;
     bottom: -1px;
-    color: #c0392b;
     padding: 15px 40px 15px 40px;
     margin-top: 0;
+    font-style: none;
+    text-align: left;
 }
 
 hr {
@@ -137,6 +137,8 @@ li.skills-item {
     font-family: 'Lato', sans-serif;
     font-size: 12px;
     font-weight: 700;
-    margin-top: 25px;
+    margin-top: 15x;
     margin-bottom: 15px;
+    list-style: none;
+    text-align: left;
 }
